@@ -1,0 +1,84 @@
+body {
+    background-color: #593879;
+}
+h1 {
+    width: 15vw;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.tela-inicial {
+    margin-top: 16vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 11, 39);
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px rgb(60, 60, 60);
+}
+.tela-inicial h1 {
+    width: 13.2vw;
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family:Verdana;
+}
+.tela-inicial img {
+    align-self: center;
+}
+
+#nome-jogador {
+    width: 14vw;
+    margin: 0 auto;
+    background-color: #e4c9fd;
+    border: none;
+    border-radius: 0.6vw;
+    padding: 3px;
+    font-family:Verdana;
+}
+.btns {
+    margin: 20px auto;
+    font-family:Verdana;
+}
+#btn-ranking {
+    width: 6vw;
+    background-color: #07aad3;
+    border: none;
+    border-radius: 0.9vw;
+    padding: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f0e7e7;
+    padding: 4px 10px;
+    font-size: 1vw;
+    text-decoration: none;
+}
+#btn-ranking:hover {
+    background-color: #5bdeff;
+    box-shadow: 2px 2px 2px #3b3b3b;
+}
+#btn-iniciar {
+    width: 6vw;
+    background-color: #03b809;
+    border: none;
+    border-radius: 0.9vw;
+    padding: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f0e7e7;
+    padding: 4px 10px;
+    font-size: 1vw;
+    text-decoration: none;
+}
+#btn-iniciar:hover {
+    background-color: #80ff84;
+    box-shadow: 2px 2px 2px #3b3b3b;
+}

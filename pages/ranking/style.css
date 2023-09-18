@@ -1,0 +1,81 @@
+body {
+    background-color: #593879;
+}
+#logo {
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.tela-ranking {
+    margin: 12vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 11, 39);
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px rgb(60, 60, 60);
+    max-width: 800px;
+    max-height: 500vw;
+    color: white;
+}
+
+.tela-ranking img {
+    align-self: center;
+}
+
+.tela-ranking h1{
+    text-align: center;
+    font-family:Verdana;
+}
+
+ul#ranking {
+    list-style-type: none;
+    background-color: #39115f;
+    margin: 0;
+    padding: 10px;
+    border-radius: 1vw;
+    height: 20vw;
+}
+li {
+    margin: 10px;
+    background-color: #7a32bd;
+    border-radius: 0.6vw;
+    padding: 10px;
+    padding-left: 30px;
+    font-family:Verdana;
+}
+li span.pontuacao{
+    display: block;
+    float: right;
+    margin-right: 15px;
+}
+li span.classificacao{
+    font-weight: bolder;
+}
+.clear-rank {
+    background-color: #0398dd;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 11vw;
+    padding: 7px 16px;
+    align-items: center;
+    align-self: flex-end;
+    font-family: Verdana;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.3vw;
+    color: white;
+    cursor: pointer;
+    
+}
+.clear-rank:hover {
+    background-color: #35b8f5;
+}

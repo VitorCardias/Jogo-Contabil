@@ -1,0 +1,123 @@
+body {
+    background-color: #593879;
+}
+
+/* Estilos para o modal */
+.modal {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 23, 29, 0.77);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: rgb(47, 15, 68);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    align-content: center;
+    margin-top: 5vw;
+    width: 30vw;
+}
+
+button {
+    background-color: #01ae07;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #03ee0b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.tela-jogo {
+    margin: 12vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 11, 39);
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px rgb(60, 60, 60);
+    max-width: 400vw;
+    max-height: 400vw;
+}
+.tela-jogo img {
+    align-self: center;
+}
+
+.tela-jogo h1{
+    text-align: center;
+    font-family:Verdana;
+}
+
+.fechar {
+    background-color: rgb(206, 5, 5);
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 1vw;
+    padding: 7px 16px;
+    align-items: center;
+    align-self: flex-end;
+    font-family: Verdana;
+    font-weight: bolder;
+    
+}
+.fechar:hover {
+    background-color: rgb(255, 0, 0);
+}
+.fechar p {
+    margin: 0;
+    padding: 0;
+}
+
+#typeQuestion {
+    color:white;
+    font-family:Verdana;
+
+}
+#pergunta {
+    color: white;
+    font-family:Verdana;
+}
+
+
+
+.botao-resposta {
+    width: 100%;
+    height: 3vw;
+
+    background-color: #4f2477;
+    color: white;
+    border: none;
+    margin: 2px;
+    box-shadow: 2px 2px 2px rgb(60, 60, 60);
+    font-family:Verdana;
+}
+.botao-resposta:hover {
+    background-color: #915ec0;
+}
+.botao-resposta:active {
+    background-color: #c790fc;
+}
