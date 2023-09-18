@@ -48,5 +48,5 @@ document.querySelector(".clear-rank").addEventListener("click", function(){
     window.location.href = "../ranking/index.html";
 });
 document.querySelector("#logo").addEventListener("click", function(){
-    window.location.href = "../tela inicial/index.html";
+    window.location.href = "../../index.html";
 })

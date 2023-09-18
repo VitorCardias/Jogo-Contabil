@@ -36,11 +36,11 @@ document.querySelector("#btn-iniciar").addEventListener("click", function(){
             return;
         }else{
             localStorage.setItem("nomeJogador", JSON.stringify(nomeJogador.value));
-            window.location.href = "../jogo/index.html";
+            window.location.href = "./pages/jogo/index.html";
         }
     }
     else {
         localStorage.setItem("nomeJogador", JSON.stringify(nomeJogador.value));
-        window.location.href = "../jogo/index.html";
+        window.location.href = "./pages/jogo/index.html";
     }
 });

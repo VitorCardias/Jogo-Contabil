@@ -255,7 +255,7 @@ function mostrarModal(){
     btnOk.addEventListener("click", function () {
         modal.style.display = "none";
 
-        window.location.href = "../tela inicial/index.html"
+        window.location.href = "../../index.html"
     });
 }
 function telaJogo() {
@@ -265,7 +265,7 @@ function telaJogo() {
         listaJogadores = [];
         nomeJogador = "";
 
-        window.location.href = "../tela inicial/index.html"
+        window.location.href = "../../index.html"
     })
     mostrarPergunta();
     const Botoes = [];
