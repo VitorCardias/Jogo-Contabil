@@ -47,7 +47,7 @@ const perguntas = [
         Custos e Despesas variáveis por unidade - $ 900<br>\
         Custos e despesas fixas do mês - $ 290.000<br><br>\
         A partir destas informações é possível afirmar que:",
-        respostas: ["A margem de segurança da empresa é de 7,3%","A empresa auferiu lucro de $ 20.000 nesta operação","O ponto de equilíbrio deste produto, com a estrutura de custos apresentada é de 300 unidades","A empresa encerrou Junho/X1 com prejuízo de $ 20.000 "],
+        respostas: ["A margem de segurança da empresa é de 7,3%","A empresa auferiu lucro de $ 20.000 nesta operação","O ponto de equilíbrio deste produto, com a estrutura de custos apresentada é de 300 unidades","A empresa encerrou Junho/X1 com prejuízo de $ 20.000"],
         correta: "A empresa encerrou Junho/X1 com prejuízo de $ 20.000"
     },
     {
